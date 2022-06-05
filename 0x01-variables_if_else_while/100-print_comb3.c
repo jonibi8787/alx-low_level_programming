@@ -8,19 +8,17 @@
  */
 int main(void)
 {
-	int d;
+	int c, d;
 
-	for (d = 0; d < 90; d++)
+	for (c = 0; c < 9; c++)
 	{
-		for ()
+		for (d = 1; d <= 9; d++)
 		{
-			putchar((d / 10) + '0');
-			putchar((d % 10) + '0');
-		}
-		if (d != 89)
+			if (c < d && c != 8 && d != 9)
 		{
 			putchar(',');
 			putchar(' ');
+		}
 		}
 	}
 	putchar('\n');
