@@ -1,23 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
  * main - Entry point
+ *
  * Return: Always 0 (Success)
-*/
+ */
 int main(void)
 {
-	long int n;
-	char m;
+	int d;
+	char low;
 
-	for (n = '0'; n <= '9'; n++)
-	{
-		putchar('n');
+	for (d = '0'; d <= '9'; d++)
+	{	
+		putchar(d);
 	}
-	for (m = 'a'; n <= 'f'; m++)
+	for (low = 'a'; low <= 'f'; low++)
 	{
-		putchar(n);
+		putchar(low);
 	}
 		putchar('\n');
 
