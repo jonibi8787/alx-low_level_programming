@@ -16,17 +16,17 @@ int main(void)
 		{
 			for (e = '0'; e <= '9'; e++)
 			{
-				for (f = '1'; f <= '9'; f++)
-				{
+			for (f = '1'; f <= '9'; f++)
+			{
 			putchar(c);
 			putchar(d);
 			putchar(' ');
-			putchar('e');
-			putchar('f');
+			putchar(e);
+			putchar(f);
 
 			putchar(',');
 			putchar(' ');
-				}
+			}
 			}
 		}
 	}
