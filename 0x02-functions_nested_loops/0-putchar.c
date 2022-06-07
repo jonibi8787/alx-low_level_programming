@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdio.h>
 #include <time.h>
+#include "main.h"
 /**
  * main - entry point
  * Return: Always 0(success)
