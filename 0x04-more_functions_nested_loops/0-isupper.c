@@ -11,11 +11,11 @@ int _isupper(int c)
 	char c;
 
 	c = 'A';
-	if (c == _isupper(c)
+	printf("%c: %d\n", c, _isupper(c));
 	return (1);
 
 	c = 'a';
-	if (c == _isupper(c)
+	printf("%c: %d\n", c, _isupper(c));
 
 	return (0);
 
