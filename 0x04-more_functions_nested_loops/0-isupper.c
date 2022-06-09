@@ -8,15 +8,11 @@
 
 int _isupper(int c)
 {
-	char c;
-
-	c = 'A';
-	printf("%c: %d\n", c, _isupper(c));
-	return (1);
-
-	c = 'a';
-	printf("%c: %d\n", c, _isupper(c));
-
-	return (0);
+	if (c >= 65 && c <= 90)
+		return (1);
+	else if (c >= 97 && c <= 122)
+		return (1);
+	else
+		return (0);
 
 }
