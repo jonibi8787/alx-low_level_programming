@@ -1,7 +1,14 @@
-#include "main.h"
+#include <stdio.h>
 /**
-* main - function return 0
-* Return: Success
+* main - main function
+* @void: no argument
+* Return: 0 Success
+*/
+#include <stdio.h>
+/**
+* main - main function
+* @void: no argument
+* Return: 0 Success
 */
 int main(void)
 {
