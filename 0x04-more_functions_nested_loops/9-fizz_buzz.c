@@ -5,24 +5,27 @@
 */
 int main(void)
 {
-	int n;
+	int i;
 
-	for (int n = 0; n < 100; n++)
-	{
-		if (n % 3 == 0)
-			printf("Fizz ");
-		else if (n % 5 == 0)
-			printf("Buzz ");
-		else if (n % 3 == 0 && n % 5 == 0)
+	for (i = 1; i < 100; i++)
+		if (i % 15 == 0)
+		{
 			printf("FizzBuzz ");
+		}
+		else if (i % 5 == 0)
+		{
+			printf("Buzz ");
+		}
+		else if (i % 3 == 0)
+		{
+			printf("Fizz ");
+		}
 		else
-			_putchar('n');
-	}
+		{
+			printf("%d ", i);
+		}
 	printf("Buzz");
 	printf("\n");
 
 	return (0);
-
 }
-
-
