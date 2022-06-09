@@ -10,15 +10,17 @@ int main(void)
 	for (int n = 0; n < 100; n++)
 	{
 		if (n % 3 == 0)
-			_putchar('Fizz');
+			printf("Fizz ");
 		else if (n % 5 == 0)
-			_putchar('Buzz');
+			printf("Buzz ");
 		else if (n % 3 == 0 && n % 5 == 0)
-			_putchar('FizzBuzz');
+			printf("FizzBuzz ");
 		else
 			_putchar('n');
 	}
-	_putchar('Buzz');
+	printf("Buzz");
+	printf("\n");
+
 	return (0);
 
 }
